@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+  background: linear-gradient(#284b63, rgb(65, 65, 49));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9abed6;
+}
+
+h1 {
+  font-size: 2vh;
+  padding-top: 0;
+}
+
+p {
+  color: #9abed6;
+}
+
+.bar {
+  margin-bottom: 10px;
+}
+
+.search-city {
+  height: 4vh;
+  border: none;
+  outline: none;
+  width: 20vh;
+  border-radius: 10px;
+  background-color: #153243;
+  color: #9abed6;
+}
+
+.container {
+  height: 50.5vh;
+  width: 40vh;
+  background-color: #153243;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.city {
+  color: #9abed6;
+  font-size: 5vh;
+  padding-top: 2vh;
+}
+
+.display-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  height: 15vh;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+}
+
+span {
+  width: 18vh;
+  height: 13vh;
+  background-color: rgba(255, 255, 255, 0.044);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.left {
+  border-radius: 15px 0 0 15px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.humidity {
+  font-size: 5vh;
+}
+
+.right {
+  border-radius: 0 15px 15px 0;
+  font-size: 3vh;
+}
+
+.temperature {
+  font-size: 8vh;
+  height: 22.3vh;
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  padding: 10px;
+  font-size: 2.5vh;
+}
+
+.description::first-letter {
+  text-transform: capitalize;
+}

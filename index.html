@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="bar">
+        <input type="text" class="search-city" placeholder="Pesquisar Cidade" />
+      </div>
+      <div class="container">
+        <div class="city"><h1>Loading...</h1></div>
+        <div class="display-weather">
+          <div class="temperature"><p>--ºC</p></div>
+          <div class="description"></div>
+        </div>
+        <div class="data">
+          <span class="left"
+            ><div class="top">Humidade</div>
+            <div class="humidity"></div></span
+          ><span class="right"
+            ><img src="./Img/day.svg" alt="" id="wimg"
+          /></span>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
