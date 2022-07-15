@@ -44,14 +44,13 @@ p {
 }
 
 .container {
-  height: 51.5vh;
+  min-height: 55vh;
   width: 40vh;
   background-color: #153243;
   border-radius: 15px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  flex-shrink: 0;
 }
 
 .city {
@@ -70,43 +69,9 @@ img {
   height: 15vh;
 }
 
-.data {
-  display: flex;
-  flex-direction: row;
-}
-
-span {
-  width: 18vh;
-  height: 13vh;
-  background-color: rgba(255, 255, 255, 0.044);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .top {
   padding-top: 1vh;
   padding-bottom: 1vh;
-}
-
-.left {
-  border-radius: 15px 0 0 15px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 18vh;
-  height: 13vh;
-}
-
-.humidity {
-  font-size: 5vh;
-}
-
-.right {
-  border-radius: 0 15px 15px 0;
-  font-size: 3vh;
-  width: 18vh;
-  height: 13vh;
 }
 
 .temperature {
@@ -114,6 +79,24 @@ span {
   height: 22.3vh;
   display: flex;
   align-items: center;
+}
+
+.data {
+  height: 16vh;
+  width: 35vh;
+  background-color: rgba(255, 255, 255, 0.032);
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 5vh;
+  border-radius: 15px;
+}
+
+#humi-desc {
+  font-size: 2vh;
 }
 
 .description {

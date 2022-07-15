@@ -14,10 +14,12 @@ function getWeather(city) {
 
     document.querySelector(".city").innerHTML = `${name} | ${country}`;
     document.querySelector(".temperature").innerHTML = `${Math.round(temp)}ºC`;
-    document.querySelector(".humidity").innerHTML = `${humidity}%`;
+    document.querySelector(
+      ".humi"
+    ).innerHTML = `<p id="humi-desc">Humidade</p>${humidity}%`;
     document.querySelector(".description").innerHTML = description;
 
-    let imageSvg = document.getElementById("wimg");
+    let imageSvg = document.getElementById("anim");
 
     switch (main) {
       case "Clouds":
